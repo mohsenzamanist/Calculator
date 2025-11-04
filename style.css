@@ -59,12 +59,12 @@ main {
   font-size: 2rem;
 }
 
-.memory-button {
+.memory {
   display: flex;
   height: 6%;
   margin-bottom: 1%;
 }
-.memory-button button {
+.memory button {
   all: unset;
   display: flex;
   justify-content: center;
@@ -74,8 +74,14 @@ main {
   color: #ffffff;
   font-size: 0.8rem;
 }
-.memory-button button:hover {
+.memory button:hover {
   background-color: #313332;
+}
+.memory .memory-deactive-button {
+  color: #717171;
+}
+.memory .memory-active {
+  color: #ffffff;
 }
 
 .keyboard {
